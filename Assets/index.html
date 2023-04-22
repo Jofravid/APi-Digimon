@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/pixel-digivolve" rel="stylesheet">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="modal-container">
+    <div class="modal" tabindex="-1" id="modal_error">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Ups!</h5>
+            <button class="btn-close" type="submit" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" id="body_modal">
+            <p>Revisa la información que estás ingresando</p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="submit" data-bs-dismiss="modal" id="btn-continuar">Continuar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <nav class="navbar bg-body-tertiary" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="./Css/img/digimon-icon1.png" id="logo" alt="Bootstrap" width="20%" height="20%">
+        </a>
+      </div>
+    </nav>
+    <div class="container" id="form_buscador">
+      <form class="form">
+        <div class="mb-3">
+          <label class="container text-center fs-3 m-3"><h1>BUSCADOR DIGIMON</h1></label>
+          <input type="text" class="form-control" id="inputBuscador">
+        </div>
+        <button type="button" class="btn" id="btn-buscador">BUSCAR</button>
+      </form>
+    </div>
+    <div class="container d-flex justify-content-center" id="container_card">
+    </div>
+    <section id="menu_container">
+    <div class="text-center" id="title2">
+      <h2>ENCUENTRA A TU COMPAÑERO DIGIMON</h2>
+    </div>
+    <div class="container">
+        <div class="row gap-3 p-3" id="menu_card">
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div id="text_footer">
+        <p class="texto">Esta página fue construida utilizando digimon-api.vercel.app creada por Shadow Smith<p>
+      </div>
+    </footer>
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

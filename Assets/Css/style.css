@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pixel Digivolve', sans-serif;                                         
+}
+#navbar{
+    background-image: url(./img/navbar-image1.jpg);
+    opacity: 0.9;
+    border: solid;
+}
+#logo{
+    opacity: 1;
+}
+#form_buscador{
+    width: 90%;
+    padding: 50px;
+    justify-content: center;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    box-shadow: 5px 5px 20px black;
+
+}
+#inputBuscador{
+    width: 80%;
+    font-size: 20px;
+    background:transparent;
+    border: none;
+    outline: none;
+    justify-content: center;
+    border-bottom: 1px solid rgb(226, 226, 2);
+    transition: 0.5s linear;
+}
+#inputBuscador:focus{
+    padding: 10px 5px;
+    background: rgb(226, 226, 2);
+    margin-top: 5px;
+}
+#btn-buscador{
+    border-radius: 10px;
+    border-color: rgb(226, 226, 2);
+    color: rgb(226, 226, 2);
+}
+#btn-buscador:hover{
+    background-color:rgb(226, 226, 2);
+    color: black;
+}
+#title2{
+    margin: 50px;
+    text-decoration: underline;
+    padding: 20px
+}
+.card{
+    border-radius: 30px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px black;
+    transition: 0.5s
+}
+.card:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+#text_card{
+    cursor: pointer;
+    border-radius: 25px;
+    background: #eaebec ;
+    padding: 10px;
+    color: black;
+    box-shadow: 2px 2px 5px black;
+}
+#modal_error{
+   color: black;
+   font-size: 20px;
+}
+#btn-continuar{
+    border-color: black;
+    color: black;
+}
+#text_footer{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 150px;
+}
+p.texto{
+    padding-top: 60px;
+    color: white;
+    font-size: 20px;
+}
+
+
